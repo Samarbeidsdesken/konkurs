@@ -5,8 +5,13 @@
 secrets/
 error_log.txt
 *.csv 
+analyser/
+
 # Mac
 .DS_Store
+
+# Vscode
+.vscode
 
 # Data files
 enheter/alle_enheter_110924
@@ -28,7 +33,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/

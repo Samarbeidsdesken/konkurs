@@ -72,7 +72,7 @@ if updated_orgs:
             enhet = (
                 dictdata['organisasjonsnummer'],
                 dictdata['navn'],
-                dictdata['registreringsdatoEnhetsregisteret'],
+                dictdata['registreringsdatoEnhetsregisteret'] if 'registreringsdatoEnhetsregisteret' in dictdata.keys() else None,
                 dictdata['stiftelsesdato'] if 'stiftelsesdato' in dictdata.keys() else None,
                 dictdata['maalform'],
                 None, #dictdata['konkurs'],
